@@ -14,5 +14,5 @@ weNeed(...ingredients);
 function rest(item1, item2, ...otherItems) {
   console.log(otherItems);
 }
-
 rest("first", "second", "third", "fourth");
+
