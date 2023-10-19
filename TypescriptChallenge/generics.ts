@@ -14,13 +14,11 @@ interface Fruit {
   name: string;
 }
 
-function Smoothie<Fruit, M>(fruit: Fruit, milk: M): string {
+function Smoothie<F extends Fruit, M>(fruit: F, milk: M): string {
   let outcome = { fruit, milk };
   return outcome.toString();
 }
 
-const bananaSmoothie = Smoothie({ amount: 3, name: "banana", tart: false }, [
-  "almond",
-]);
+const bananaSmoothie = Smoothie({ amount: 3, name: 4, tart: false }, ["almond"]);
 
-console.log(Smoothie({ amount: 3, name: "banana", tart: false }, ["almond"]));
+

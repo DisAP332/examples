@@ -53,3 +53,4 @@ class Fruit {
 const orangeJuice = Fruit.squeeze({ type: "orange", pulp: true });
 
 console.log(orangeJuice);
+
