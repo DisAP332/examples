@@ -6,11 +6,12 @@ function identityOne(val) {
 function identityTwo(val) {
     return val;
 }
+// interface Fruit {
+//   amount: number;
+//   name: string;
+// }
 function Smoothie(fruit, milk) {
     var outcome = { fruit: fruit, milk: milk };
     return outcome.toString();
 }
-var bananaSmoothie = Smoothie({ amount: 3, name: "banana", tart: false }, [
-    "almond",
-]);
-console.log(Smoothie({ amount: 3, name: "banana", tart: false }, ["almond"]));
+// const bananaSmoothie = Smoothie({ amount: 3, name: 4, tart: false }, ["almond"]);
