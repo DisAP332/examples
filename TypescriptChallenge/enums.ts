@@ -1,3 +1,9 @@
+enum options {
+  DELETE = "/delete",
+  CREATE = "/create",
+  UPDATE = "/put",
+}
+
 enum numeric {
   first,
   second,
