@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Box A",
+    "contents": [
+      {
+        "name": "Box A1",
+        "contents": ["pencil", "notebook"]
+      },
+      {
+        "name": "Box A2",
+        "contents": [
+          {
+            "name": "Box A2a",
+            "contents": ["key", "stamp"]
+          },
+          "scissors",
+          "tape"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Box B",
+    "contents": [
+      {
+        "name": "Box B1",
+        "contents": ["glue", "marker"]
+      },
+      {
+        "name": "Box B2",
+        "contents": ["envelope", "rubber band"]
+      }
+    ]
+  },
+  {
+    "name": "Box C",
+    "contents": [
+      {
+        "name": "Box C1",
+        "contents": ["playing cards", "photograph"]
+      },
+      {
+        "name": "Box C2",
+        "contents": [
+          {
+            "name": "Box C2a",
+            "contents": ["coin", "button"]
+          },
+          "charger",
+          "usb cable"
+        ]
+      }
+    ]
+  }
+]
