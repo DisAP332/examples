@@ -1,0 +1,79 @@
+[
+  {
+    "name": "maggie",
+    "mangoSeller": false,
+    "friends": [
+      {
+        "name": "sherrie",
+        "mangoSeller": false,
+        "friends": [
+          {
+            "name": "pepe",
+            "mangoSeller": false,
+            "friends": []
+          },
+          {
+            "name": "kaylee",
+            "mangoSeller": false,
+            "friends": []
+          }
+        ]
+      },
+      {
+        "name": "polo",
+        "mangoSeller": false,
+        "friends": [
+          {
+            "name": "nancy",
+            "mangoSeller": false,
+            "friends": []
+          },
+          {
+            "name": "tim",
+            "mangoSeller": false,
+            "friends": [
+              {
+                "name": "joe",
+                "mangoSeller": false,
+                "friends": [
+                  {
+                    "name": "billy",
+                    "mangoSeller": false,
+                    "friends": [
+                      {
+                        "name": "john",
+                        "mangoSeller": false,
+                        "friends": []
+                      },
+                      {
+                        "name": "george",
+                        "mangoSeller": false,
+                        "friends": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "jim",
+                    "mangoSeller": false,
+                    "friends": [
+                      {
+                        "name": "flavio",
+                        "mangoSeller": true,
+                        "friends": []
+                      },
+                      {
+                        "name": "pim",
+                        "mangoSeller": false,
+                        "friends": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
